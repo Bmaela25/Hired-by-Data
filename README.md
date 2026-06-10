@@ -157,7 +157,14 @@ Avg Applicants Eastern =
 
 ## Dashboard
 
-Three pages with conditional colour formatting (red = risk, yellow = caution, green = opportunity):
+## Dashboard & Full Documentation
+
+The interactive dashboard was built in Power BI Desktop across 3 pages 
+with conditional formatting, DAX measures, and Key Influencers analysis.
+
+Full methodology, data decisions, DAX measures, SQL queries, and 
+dashboard documentation available in the technical portfolio:
+📄 [HiredByData — Technical Portfolio (PDF)](HiredByData_BenildeMaela.pdf)
 
 **Page 1  Market Overview**  
 KPI cards · Jobs by Role · Competition Level (donut) · West vs East Europe · Jobs by Country · Region slicer
