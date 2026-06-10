@@ -100,7 +100,7 @@ Separating dimensions eliminates redundancy, improves query performance, and mak
 Bidirectional cross-filtering caused a DAX evaluation bug — Total Jobs returned 93 instead of 239 with an active slicer. Single direction with `ALL()` in the base measure resolves this cleanly.
 
 **MEDIAN alongside AVERAGE**  
-The applicants distribution is right-skewed. Average = 96.57, Median = 73. The difference is itself an insight — cities like London (142 avg) distort the mean. Both metrics are exposed deliberately.
+The applicants distribution is right-skewed. Average = 96.57, Median = 73. The difference is itself an insight  cities like London (142 avg) distort the mean. Both metrics are exposed deliberately.
 
 ---
 
@@ -147,8 +147,8 @@ Avg Applicants Eastern =
 | Eastern Europe less competitive | Avg 75 applicants vs 105.7 Western |
 | Eastern Europe low competition rate | 39.4% vs 16.1% Western |
 | Best opportunity segment | Eastern Europe + Startup: 51.7% low competition |
-| Key Influencer — Eastern Europe | 2.45x more likely to be low competition |
-| Key Influencer — Data Analyst | 1.63x more likely to be high competition |
+| Key Influencer  Eastern Europe | 2.45x more likely to be low competition |
+| Key Influencer  Data Analyst | 1.63x more likely to be high competition |
 | Salary data available | 11% of records — UK and Ireland only |
 
 ---
@@ -170,10 +170,10 @@ What drives high/low competition? Automatic factor identification with multiplie
 
 ## Limitations
 
-- Salary absent in 89% of records — structural limitation of European LinkedIn, not of the system
-- All low competition jobs show value 25 — LinkedIn does not expose the exact number for recent postings
-- Single snapshot — June 2026. Pipeline designed for periodic re-execution.
-- UK over-represented (44% of sample) — reflects LinkedIn's European distribution
+- Salary absent in 89% of records  structural limitation of European LinkedIn, not of the system
+- All low competition jobs show value 25  LinkedIn does not expose the exact number for recent postings
+- Single snapshot  June 2026. Pipeline designed for periodic re-execution.
+- UK over-represented (44% of sample)  reflects LinkedIn's European distribution
 
 ---
 
