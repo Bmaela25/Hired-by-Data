@@ -1,6 +1,8 @@
 # Hired by Data
 ### European Job Market Intelligence Pipeline
 
+ **Note:** Raw data files (JSON, Excel) are not included in this repository due to LinkedIn terms of service. The pipeline scripts are fully functional with new data collected via Apify.
+
 > 239 real LinkedIn job postings · 12 European countries · June 2026  
 > Built to answer: *where are the opportunities, and where is competition lowest?*
 
@@ -201,9 +203,6 @@ hired-by-data/
 │   └── HiredByData.pbix          # Power BI dashboard
 └── docs/
     └── HiredByData_Technical_Portfolio.docx
-```
-
-> **Note:** Raw data files (JSON, Excel) are not included in this repository due to LinkedIn terms of service. The pipeline scripts are fully functional with new data collected via Apify.
 
 ---
 
@@ -236,6 +235,6 @@ python migrate_to_sqlserver.py
 
 ---
 
-*Benilde Maela — Operations | Business Analysis | Data & BI*  
-*github.com/Bmaela*
+*Benilde Maela  Operations | Business Analysis | Data & BI*  
+*github.com/Bmaela25*
 
