@@ -29,11 +29,11 @@ An end-to-end data pipeline that:
 ```
 LinkedIn (public search)
         ↓
-Apify — curious_coder/linkedin-jobs-scraper
+Apify  curious_coder/linkedin-jobs-scraper
         ↓
 JSON (raw) — linkedin_raw.json + linkedin_raw_east.json
         ↓
-Python — clean.py
+Python  clean.py
 Normalisation · Field extraction · Calculated fields
         ↓
 SQL Server Express — HiredByData
@@ -149,7 +149,7 @@ Avg Applicants Eastern =
 | Best opportunity segment | Eastern Europe + Startup: 51.7% low competition |
 | Key Influencer  Eastern Europe | 2.45x more likely to be low competition |
 | Key Influencer  Data Analyst | 1.63x more likely to be high competition |
-| Salary data available | 11% of records — UK and Ireland only |
+| Salary data available | 11% of records  UK and Ireland only |
 
 ---
 
@@ -157,13 +157,13 @@ Avg Applicants Eastern =
 
 Three pages with conditional colour formatting (red = risk, yellow = caution, green = opportunity):
 
-**Page 1 — Market Overview**  
+**Page 1  Market Overview**  
 KPI cards · Jobs by Role · Competition Level (donut) · West vs East Europe · Jobs by Country · Region slicer
 
-**Page 2 — Competition Analysis**  
+**Page 2  Competition Analysis**  
 Average Competition by City · Total Jobs by Country · Low Competition Opportunities table (filtered, actionable)
 
-**Page 3 — Key Influencers**  
+**Page 3  Key Influencers**  
 What drives high/low competition? Automatic factor identification with multipliers and Top Segments.
 
 ---
